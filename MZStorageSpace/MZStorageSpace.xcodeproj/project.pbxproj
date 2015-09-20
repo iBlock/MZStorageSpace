@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD242C1D5C78322039A0CB7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A893A97BE00BECEDEADBACB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CC2096D71BAC654300E78844 /* MZHomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2096D61BAC654300E78844 /* MZHomePageVC.swift */; settings = {ASSET_TAGS = (); }; };
+		CC42C84C1BAE8C11004F1FF5 /* MZHomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42C84B1BAE8C11004F1FF5 /* MZHomeTableView.swift */; settings = {ASSET_TAGS = (); }; };
+		CC42C84E1BAE8D38004F1FF5 /* MZHomeTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42C84D1BAE8D38004F1FF5 /* MZHomeTableViewModel.swift */; settings = {ASSET_TAGS = (); }; };
+		CC42C8501BAE9980004F1FF5 /* MZHomeTableViewStairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42C84F1BAE9980004F1FF5 /* MZHomeTableViewStairCell.swift */; settings = {ASSET_TAGS = (); }; };
+		CC42C8541BAEA062004F1FF5 /* MZHomeTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42C8531BAEA062004F1FF5 /* MZHomeTableHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
+		CC42C8561BAEA0AA004F1FF5 /* MZHomeTableHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42C8551BAEA0AA004F1FF5 /* MZHomeTableHeaderModel.swift */; settings = {ASSET_TAGS = (); }; };
+		CC42C8581BAEA2C9004F1FF5 /* MZHomeTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42C8571BAEA2C9004F1FF5 /* MZHomeTableViewExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		CC42C85A1BAEA504004F1FF5 /* MZHomeStorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42C8591BAEA504004F1FF5 /* MZHomeStorageModel.swift */; settings = {ASSET_TAGS = (); }; };
+		CC4ADC5A1BAEF76200EFEBCF /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4ADC591BAEF76200EFEBCF /* PureLayout.framework */; };
+		CCEA6C1E1BAC4F9E0047DA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA6C1D1BAC4F9E0047DA91 /* AppDelegate.swift */; };
+		CCEA6C231BAC4F9E0047DA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCEA6C211BAC4F9E0047DA91 /* Main.storyboard */; };
+		CCEA6C251BAC4F9E0047DA91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCEA6C241BAC4F9E0047DA91 /* Images.xcassets */; };
+		CCEA6C281BAC4F9E0047DA91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEA6C261BAC4F9E0047DA91 /* LaunchScreen.xib */; };
+		CCEA6C341BAC4F9F0047DA91 /* MZStorageSpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA6C331BAC4F9F0047DA91 /* MZStorageSpaceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCEA6C2E1BAC4F9F0047DA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCEA6C101BAC4F9E0047DA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCEA6C171BAC4F9E0047DA91;
+			remoteInfo = MZStorageSpace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A893A97BE00BECEDEADBACB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92047F545BE68483D39E65A4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9DC08D9EF32108D9F8427880 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CC2096D61BAC654300E78844 /* MZHomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomePageVC.swift; sourceTree = "<group>"; };
+		CC42C84B1BAE8C11004F1FF5 /* MZHomeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomeTableView.swift; sourceTree = "<group>"; };
+		CC42C84D1BAE8D38004F1FF5 /* MZHomeTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomeTableViewModel.swift; sourceTree = "<group>"; };
+		CC42C84F1BAE9980004F1FF5 /* MZHomeTableViewStairCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomeTableViewStairCell.swift; sourceTree = "<group>"; };
+		CC42C8531BAEA062004F1FF5 /* MZHomeTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomeTableHeaderView.swift; sourceTree = "<group>"; };
+		CC42C8551BAEA0AA004F1FF5 /* MZHomeTableHeaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomeTableHeaderModel.swift; sourceTree = "<group>"; };
+		CC42C8571BAEA2C9004F1FF5 /* MZHomeTableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomeTableViewExtension.swift; sourceTree = "<group>"; };
+		CC42C8591BAEA504004F1FF5 /* MZHomeStorageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZHomeStorageModel.swift; sourceTree = "<group>"; };
+		CC4ADC551BAEF6B200EFEBCF /* MZStorageSpace-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MZStorageSpace-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC4ADC591BAEF76200EFEBCF /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = "Pods/../build/Debug-iphoneos/PureLayout.framework"; sourceTree = "<group>"; };
+		CCEA6C181BAC4F9E0047DA91 /* MZStorageSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZStorageSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEA6C1C1BAC4F9E0047DA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEA6C1D1BAC4F9E0047DA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCEA6C221BAC4F9E0047DA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCEA6C241BAC4F9E0047DA91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCEA6C271BAC4F9E0047DA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCEA6C2D1BAC4F9F0047DA91 /* MZStorageSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZStorageSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCEA6C321BAC4F9F0047DA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEA6C331BAC4F9F0047DA91 /* MZStorageSpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZStorageSpaceTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCEA6C151BAC4F9E0047DA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4ADC5A1BAEF76200EFEBCF /* PureLayout.framework in Frameworks */,
+				5AD242C1D5C78322039A0CB7 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA6C2A1BAC4F9F0047DA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91827C730291B91255CDBD83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4ADC591BAEF76200EFEBCF /* PureLayout.framework */,
+				3A893A97BE00BECEDEADBACB /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCEA6C0F1BAC4F9E0047DA91 = {
+			isa = PBXGroup;
+			children = (
+				CCEA6C1A1BAC4F9E0047DA91 /* MZStorageSpace */,
+				CCEA6C301BAC4F9F0047DA91 /* MZStorageSpaceTests */,
+				CCEA6C191BAC4F9E0047DA91 /* Products */,
+				E376C4138ECE43B8534B2932 /* Pods */,
+				91827C730291B91255CDBD83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCEA6C191BAC4F9E0047DA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA6C181BAC4F9E0047DA91 /* MZStorageSpace.app */,
+				CCEA6C2D1BAC4F9F0047DA91 /* MZStorageSpaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCEA6C1A1BAC4F9E0047DA91 /* MZStorageSpace */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA6C1D1BAC4F9E0047DA91 /* AppDelegate.swift */,
+				CC2096D61BAC654300E78844 /* MZHomePageVC.swift */,
+				CC42C8591BAEA504004F1FF5 /* MZHomeStorageModel.swift */,
+				CC42C8571BAEA2C9004F1FF5 /* MZHomeTableViewExtension.swift */,
+				CC42C84B1BAE8C11004F1FF5 /* MZHomeTableView.swift */,
+				CC42C84F1BAE9980004F1FF5 /* MZHomeTableViewStairCell.swift */,
+				CC42C8551BAEA0AA004F1FF5 /* MZHomeTableHeaderModel.swift */,
+				CC42C8531BAEA062004F1FF5 /* MZHomeTableHeaderView.swift */,
+				CC42C84D1BAE8D38004F1FF5 /* MZHomeTableViewModel.swift */,
+				CCEA6C211BAC4F9E0047DA91 /* Main.storyboard */,
+				CCEA6C241BAC4F9E0047DA91 /* Images.xcassets */,
+				CCEA6C261BAC4F9E0047DA91 /* LaunchScreen.xib */,
+				CCEA6C1B1BAC4F9E0047DA91 /* Supporting Files */,
+				CC4ADC551BAEF6B200EFEBCF /* MZStorageSpace-Bridging-Header.h */,
+			);
+			path = MZStorageSpace;
+			sourceTree = "<group>";
+		};
+		CCEA6C1B1BAC4F9E0047DA91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA6C1C1BAC4F9E0047DA91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCEA6C301BAC4F9F0047DA91 /* MZStorageSpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA6C331BAC4F9F0047DA91 /* MZStorageSpaceTests.swift */,
+				CCEA6C311BAC4F9F0047DA91 /* Supporting Files */,
+			);
+			path = MZStorageSpaceTests;
+			sourceTree = "<group>";
+		};
+		CCEA6C311BAC4F9F0047DA91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA6C321BAC4F9F0047DA91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E376C4138ECE43B8534B2932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92047F545BE68483D39E65A4 /* Pods.debug.xcconfig */,
+				9DC08D9EF32108D9F8427880 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCEA6C171BAC4F9E0047DA91 /* MZStorageSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEA6C371BAC4F9F0047DA91 /* Build configuration list for PBXNativeTarget "MZStorageSpace" */;
+			buildPhases = (
+				75C1924318CF7A7490527EFF /* Check Pods Manifest.lock */,
+				CCEA6C141BAC4F9E0047DA91 /* Sources */,
+				CCEA6C151BAC4F9E0047DA91 /* Frameworks */,
+				CCEA6C161BAC4F9E0047DA91 /* Resources */,
+				4E1758571A49281706D9BEBE /* Copy Pods Resources */,
+				20C75C733700604672FDFC95 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZStorageSpace;
+			productName = MZStorageSpace;
+			productReference = CCEA6C181BAC4F9E0047DA91 /* MZStorageSpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCEA6C2C1BAC4F9F0047DA91 /* MZStorageSpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCEA6C3A1BAC4F9F0047DA91 /* Build configuration list for PBXNativeTarget "MZStorageSpaceTests" */;
+			buildPhases = (
+				CCEA6C291BAC4F9F0047DA91 /* Sources */,
+				CCEA6C2A1BAC4F9F0047DA91 /* Frameworks */,
+				CCEA6C2B1BAC4F9F0047DA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCEA6C2F1BAC4F9F0047DA91 /* PBXTargetDependency */,
+			);
+			name = MZStorageSpaceTests;
+			productName = MZStorageSpaceTests;
+			productReference = CCEA6C2D1BAC4F9F0047DA91 /* MZStorageSpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCEA6C101BAC4F9E0047DA91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iBlock;
+				TargetAttributes = {
+					CCEA6C171BAC4F9E0047DA91 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCEA6C2C1BAC4F9F0047DA91 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCEA6C171BAC4F9E0047DA91;
+					};
+				};
+			};
+			buildConfigurationList = CCEA6C131BAC4F9E0047DA91 /* Build configuration list for PBXProject "MZStorageSpace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCEA6C0F1BAC4F9E0047DA91;
+			productRefGroup = CCEA6C191BAC4F9E0047DA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCEA6C171BAC4F9E0047DA91 /* MZStorageSpace */,
+				CCEA6C2C1BAC4F9F0047DA91 /* MZStorageSpaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCEA6C161BAC4F9E0047DA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA6C231BAC4F9E0047DA91 /* Main.storyboard in Resources */,
+				CCEA6C281BAC4F9E0047DA91 /* LaunchScreen.xib in Resources */,
+				CCEA6C251BAC4F9E0047DA91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA6C2B1BAC4F9F0047DA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20C75C733700604672FDFC95 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1758571A49281706D9BEBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C1924318CF7A7490527EFF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCEA6C141BAC4F9E0047DA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC42C8541BAEA062004F1FF5 /* MZHomeTableHeaderView.swift in Sources */,
+				CC42C8581BAEA2C9004F1FF5 /* MZHomeTableViewExtension.swift in Sources */,
+				CC42C8561BAEA0AA004F1FF5 /* MZHomeTableHeaderModel.swift in Sources */,
+				CCEA6C1E1BAC4F9E0047DA91 /* AppDelegate.swift in Sources */,
+				CC42C85A1BAEA504004F1FF5 /* MZHomeStorageModel.swift in Sources */,
+				CC42C84E1BAE8D38004F1FF5 /* MZHomeTableViewModel.swift in Sources */,
+				CC42C8501BAE9980004F1FF5 /* MZHomeTableViewStairCell.swift in Sources */,
+				CC2096D71BAC654300E78844 /* MZHomePageVC.swift in Sources */,
+				CC42C84C1BAE8C11004F1FF5 /* MZHomeTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEA6C291BAC4F9F0047DA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEA6C341BAC4F9F0047DA91 /* MZStorageSpaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCEA6C2F1BAC4F9F0047DA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCEA6C171BAC4F9E0047DA91 /* MZStorageSpace */;
+			targetProxy = CCEA6C2E1BAC4F9F0047DA91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCEA6C211BAC4F9E0047DA91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEA6C221BAC4F9E0047DA91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCEA6C261BAC4F9E0047DA91 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCEA6C271BAC4F9E0047DA91 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCEA6C351BAC4F9F0047DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCEA6C361BAC4F9F0047DA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCEA6C381BAC4F9F0047DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92047F545BE68483D39E65A4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = MZStorageSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "MZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZStorageSpace/MZStorageSpace-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/**\"";
+			};
+			name = Debug;
+		};
+		CCEA6C391BAC4F9F0047DA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC08D9EF32108D9F8427880 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = MZStorageSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "MZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZStorageSpace/MZStorageSpace-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/**\"";
+			};
+			name = Release;
+		};
+		CCEA6C3B1BAC4F9F0047DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZStorageSpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZStorageSpace.app/MZStorageSpace";
+			};
+			name = Debug;
+		};
+		CCEA6C3C1BAC4F9F0047DA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZStorageSpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZStorageSpace.app/MZStorageSpace";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCEA6C131BAC4F9E0047DA91 /* Build configuration list for PBXProject "MZStorageSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA6C351BAC4F9F0047DA91 /* Debug */,
+				CCEA6C361BAC4F9F0047DA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEA6C371BAC4F9F0047DA91 /* Build configuration list for PBXNativeTarget "MZStorageSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA6C381BAC4F9F0047DA91 /* Debug */,
+				CCEA6C391BAC4F9F0047DA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCEA6C3A1BAC4F9F0047DA91 /* Build configuration list for PBXNativeTarget "MZStorageSpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCEA6C3B1BAC4F9F0047DA91 /* Debug */,
+				CCEA6C3C1BAC4F9F0047DA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCEA6C101BAC4F9E0047DA91 /* Project object */;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="haX-nT-DJn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Kgb-rk-2RC">
+            <objects>
+                <navigationController id="haX-nT-DJn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o5b-a4-djd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tAT-BW-wS6" kind="relationship" relationship="rootViewController" id="fBb-7y-ecB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IwF-mi-KaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-244" y="503"/>
+        </scene>
+        <!--储物空间-->
+        <scene sceneID="e4V-hx-e1t">
+            <objects>
+                <viewController id="tAT-BW-wS6" customClass="MZHomePageVC" customModule="MZStorageSpace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gJC-9v-1ed"/>
+                        <viewControllerLayoutGuide type="bottom" id="HVa-uC-2bx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Ua-iV-jjn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="RLT-h3-I08">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="5at-AT-lNw"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Zrd-6L-3Wj" customClass="MZHomeTableView" customModule="MZStorageSpace" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="108" width="600" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <sections/>
+                                <connections>
+                                    <outlet property="delegate" destination="tAT-BW-wS6" id="Kcp-2w-Bvo"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RLT-h3-I08" firstAttribute="top" secondItem="gJC-9v-1ed" secondAttribute="bottom" id="G7S-Qu-Mxf"/>
+                            <constraint firstItem="Zrd-6L-3Wj" firstAttribute="top" secondItem="RLT-h3-I08" secondAttribute="bottom" id="Naw-UF-b0l"/>
+                            <constraint firstItem="Zrd-6L-3Wj" firstAttribute="leading" secondItem="4Ua-iV-jjn" secondAttribute="leading" id="Nbc-Je-Ckl"/>
+                            <constraint firstItem="RLT-h3-I08" firstAttribute="leading" secondItem="4Ua-iV-jjn" secondAttribute="leading" id="Pru-7E-W5Z"/>
+                            <constraint firstAttribute="trailing" secondItem="Zrd-6L-3Wj" secondAttribute="trailing" id="RGu-Yj-ifw"/>
+                            <constraint firstItem="HVa-uC-2bx" firstAttribute="top" secondItem="Zrd-6L-3Wj" secondAttribute="bottom" id="Zeg-s9-Oqn"/>
+                            <constraint firstAttribute="trailing" secondItem="RLT-h3-I08" secondAttribute="trailing" id="fWD-h9-YWe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="储物空间" id="9qp-Pf-XNv"/>
+                    <connections>
+                        <outlet property="homeTableView" destination="Zrd-6L-3Wj" id="ftT-5s-2Dq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MEk-Mn-M5i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="454" y="503"/>
+        </scene>
+    </scenes>
+</document>
