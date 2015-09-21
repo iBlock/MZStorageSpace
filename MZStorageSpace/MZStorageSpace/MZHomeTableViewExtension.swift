@@ -9,20 +9,25 @@
 import UIKit
 
 extension MZHomePageVC {
-    internal func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    internal func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
+    {
         let headerView = MZHomeTableHeaderView()
-        let label = UILabel.newAutoLayoutView()
-        headerView.addSubview(label)
-        label.autoPinEdgesToSuperviewEdgesWithInsets(UIEdgeInsetsZero)
-        label.text = "affsdfsdf"
+        headerView.delegate = self
+        headerView.titleText = MZHomeStorageModel().headerTitleNameList[section]
         return headerView
     }
     
-    internal func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    internal func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat
+    {
         return 44
     } 
     
-    internal func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    internal func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat
+    {
         return 60
+    }
+    
+    func clickHeadView() {
+        homeTableView.reloadData()
     }
 }

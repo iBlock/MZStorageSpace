@@ -9,5 +9,5 @@
 import UIKit
 
 class MZHomeStorageModel: NSObject {
-    let headerTitleNameList: Array<String> = ["工具类", "日用类", "衣物类"]
+    let headerTitleNameList: Array<String> = ["  工具类", "  日用类", "  衣物类"]
 }

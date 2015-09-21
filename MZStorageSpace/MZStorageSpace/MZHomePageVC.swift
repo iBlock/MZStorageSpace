@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MZHomePageVC: UIViewController, UITableViewDelegate{
+class MZHomePageVC: UIViewController, UITableViewDelegate, MZHomeTableHeaderViewDelegate{
     
     @IBOutlet weak var homeTableView: MZHomeTableView!
     var homeTableViewModel: MZHomeTableViewModel!
